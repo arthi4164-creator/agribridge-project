@@ -1,0 +1,27 @@
+# AgriBridge AI - Backend Dependencies
+# Smart India Hackathon (SIH26033)
+
+# Core Web Framework & ASGI Server
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+python-multipart>=0.0.9
+
+# Authentication & Security
+PyJWT>=2.8.0
+
+# AI Demand & Price Forecasting Engine (ML/Analytics)
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+scipy>=1.12.0
+
+# Farm-to-Fork Batch QR Code Traceability
+qrcode[pil]>=7.4.2
+pillow>=10.2.0
+
+# Environment Configuration
+python-dotenv>=1.0.1
+
+# Production Database Support (PostgreSQL / PostGIS - Optional)
+psycopg2-binary>=2.9.9
